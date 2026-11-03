@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="goldFav" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E2A0"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark Circle Base -->
+  <circle cx="64" cy="64" r="62" fill="#0A0A0A" stroke="#D4AF37" stroke-width="2"/>
+  
+  <!-- Outer Scalloped / Zigzag Ring -->
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4,4"/>
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3,3"/>
+  
+  <!-- Tiny Fairy Lights -->
+  <circle cx="64" cy="14" r="2.5" fill="#FFF4C2"/>
+  <circle cx="114" cy="64" r="2.5" fill="#FFF4C2"/>
+  <circle cx="64" cy="114" r="2.5" fill="#FFF4C2"/>
+  <circle cx="14" cy="64" r="2.5" fill="#FFF4C2"/>
+  
+  <!-- Scissor Blades -->
+  <!-- Left White Blade -->
+  <path d="M 46 86 L 64 64 L 92 36" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="44" cy="88" r="8" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  
+  <!-- Right Gold Blade -->
+  <path d="M 82 86 L 64 64 L 36 36" stroke="url(#goldFav)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="84" cy="88" r="8" fill="none" stroke="url(#goldFav)" stroke-width="3"/>
+  
+  <!-- Gold Center Screw -->
+  <circle cx="64" cy="64" r="3.5" fill="#F3E2A0"/>
+</svg>

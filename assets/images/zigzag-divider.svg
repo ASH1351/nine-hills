@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" preserveAspectRatio="none" fill="none">
+  <defs>
+    <linearGradient id="goldLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A227" stop-opacity="0.2"/>
+      <stop offset="25%" stop-color="#F3E2A0" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#F3E2A0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#C9A227" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="zigzagDouble" width="40" height="24" patternUnits="userSpaceOnUse">
+      <!-- Outer Zigzag -->
+      <polyline points="0,18 10,4 20,18 30,4 40,18" fill="none" stroke="url(#goldLineGrad)" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- Inner Scallop / Accent Zigzag -->
+      <polyline points="0,22 10,10 20,22 30,10 40,22" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- Tiny warm fairy light bulb at crest -->
+      <circle cx="10" cy="4" r="2" fill="#FFF2BD"/>
+      <circle cx="10" cy="4" r="4" fill="#E8B83A" opacity="0.3"/>
+      <circle cx="30" cy="4" r="2" fill="#FFF2BD"/>
+      <circle cx="30" cy="4" r="4" fill="#E8B83A" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="26" fill="url(#zigzagDouble)"/>
+</svg>
